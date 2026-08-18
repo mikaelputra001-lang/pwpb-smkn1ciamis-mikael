@@ -6,8 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Mikael</h1>
-
+    <form action="show.html" method="post">
+        <fieldset>
+        <legend>Data Siswa</legend>
+            <label>Nis</label>
+            <input type=num name="nis" id="nis" max="9"><br>
+            <label>Nama</label>
+            <input type=text name="nama" id="nama" max="35"><br>
+            <label>Kelas</label>
+            <select name="kelas" id="kelas">
+                <option value="RPL">RPL</option>
+                <option value="DKV">DKV</option>
+                <option value="AKL">AKL</option>
+                <option value="MP">MP</option>
+                <option value="KLN">KLN</option>
+                <option value="HTL">HTL</option>
+                <option value="PM">PM</option>
+            </select><br>
+            <label>Jenis Kelamin</label>
+            <input type="radio" name="jk" id="laki" value="Laki-laki">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" name="jk" id="perempuan" value="Perempuan">
+            <label for="perempuan">Perempuan</label><br>
+            <label>Alamat</label>
+            <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br>
+        </fieldset>
+    </form>
     <script></script>
 </body>
 </html>
