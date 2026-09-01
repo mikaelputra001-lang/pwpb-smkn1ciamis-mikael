@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let lamaJomblo = prompt("berapa lama anda menjomblo?") ?? "kasihan deh lo";
+        if (isNaN(lamaJomblo)) {
+            alert("maaf input tidak valid")
+        } else {
+            if (lamaJomblo <= 2) {
+                console.log("masih Fresh")
+            } else if (lamaJomblo <= 5) {
+
+                console.log("Mulai Lapuk")
+            } else if (lamaJomblo <= 10) {
+                console.log("perlu dukun") 
+            } else if (lamaJomblo > 10) {
+                console.log("Legend")
+            } else {
+                console.log("Masih Berhubungan?")
+            }
+        }
+    </script>
+</body>
+</html>
