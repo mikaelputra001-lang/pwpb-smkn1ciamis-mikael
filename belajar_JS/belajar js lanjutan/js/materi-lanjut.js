@@ -29,7 +29,7 @@ function login() {
     if (username == "Budi" && password == 123) {
         i = 0;
     } else {
-        alert("username atau password salah! coba lagi.");
+        alert("username atau password salah! percobaan ke-" + i);
         i++;
     }
 }
